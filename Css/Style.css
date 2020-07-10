@@ -37,6 +37,8 @@ p{
     -ms-border-radius: 10px;
     -o-border-radius: 10px;
     position: fixed;
+    right:20px;
+    bottom: 20px;
     z-index: 9999999;
     cursor: pointer;
 }

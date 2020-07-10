@@ -1,15 +1,14 @@
 $(function () {
-    $('window').on('scroll',function (){
-        var scrollSize = $('window').scrollTop()
+    $(window).on('scroll',function (){
+        var scrollSize = $(window).scrollTop()
 
         if(scrollSize < 200){
-            $('#backToTop').hide()
-        }else{
-            if(scrollSize < 200){
-                $('#backToTop').show()
+            $('#backToTop').hide(1000)
+        } else {
+                $('#backToTop').show(1000)
             }
         })
-    })  
+})  
 
 
 
